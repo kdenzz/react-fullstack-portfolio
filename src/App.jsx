@@ -799,23 +799,23 @@ function App() {
               <span className="eyebrow-divider">/</span> BENGALURU, INDIA
             </p>
             <h1 id="hero-title">
-              From first
+              React interfaces.
               <br />
-              commit to <span>launch.</span>
+              <span>Full-stack systems.</span>
             </h1>
             <p className="hero-intro">
-              I’m Karan — a software engineer with 3.5+ years shipping mobile,
-              web, and real-time products, from the first interface to the systems
-              behind it.
+              I’m Karan, a software engineer working across React and React
+              Native interfaces, Node.js APIs, databases, and real-time
+              applications for web and mobile.
             </p>
             <div className="hero-actions">
               <a className="button button-primary" href="#work">
-                Explore selected work <span aria-hidden="true">↓</span>
+                View selected work <span aria-hidden="true">↓</span>
               </a>
-              <a className="text-link" href="mailto:karangupta916@gmail.com">
-                Have a product in mind?{" "}
+              <a className="text-link" href="#stack">
+                Technical skills{" "}
                 <strong>
-                  Let’s talk <span aria-hidden="true">↗</span>
+                  View toolkit <span aria-hidden="true">↗</span>
                 </strong>
               </a>
             </div>
@@ -852,9 +852,9 @@ function App() {
                   <span className="build-id">KG—001</span>
                 </div>
                 <p>
-                  Thoughtful products.
+                  React interfaces.
                   <br />
-                  <strong>Solid systems.</strong>
+                  <strong>Connected systems.</strong>
                 </p>
                 <div className="build-stack">
                   <span>REACT</span>
@@ -862,7 +862,7 @@ function App() {
                   <span>DATABASE</span>
                 </div>
                 <div className="build-card-bottom">
-                  <span className="status-pulse" /> Ready for the next idea{" "}
+                  <span className="status-pulse" /> COMPONENTS → SERVICES{" "}
                   <span aria-hidden="true">↗</span>
                 </div>
               </div>
@@ -888,7 +888,7 @@ function App() {
         <section className="proof-strip" aria-label="Experience highlights">
           <div className="proof-item">
             <strong>
-              3.5<span>+</span>
+              2<span>+</span>
             </strong>
             <span>Years professional experience</span>
           </div>
@@ -993,19 +993,19 @@ function App() {
               <span className="section-index">02</span> HOW I BUILD
             </p>
             <h2 id="about-title">
-              Curiosity in.
+              Engineering
               <br />
-              <span>Craft out.</span>
+              <span>approach.</span>
             </h2>
             <p className="about-lead">
-              I like working where product thinking meets implementation: shaping
-              an idea, choosing a sound technical path, then sweating the details
-              that make it useful.
+              I develop client-side features with reusable React components,
+              explicit state, and responsive layouts.
             </p>
             <p>
-              My work spans responsive web, mobile applications, backend services,
-              and real-time systems. I enjoy owning the whole path—from a clean
-              component system and reliable API to a product someone can use.
+              My experience also includes React Native apps, Node.js and Express
+              APIs, relational and document databases, WebSockets, and real-time
+              synchronization. I work across implementation, integration, and
+              testing on web and mobile products.
             </p>
             <p className="education-note">
               <span>EDUCATION</span> Christ University, Bengaluru · Coursework
@@ -1025,15 +1025,15 @@ function App() {
           </div>
           <div className="approach-panel">
             <div className="approach-topline">
-              <span>DELIVERY NOTES</span>
+              <span>IMPLEMENTATION FLOW</span>
               <span>END TO END / 03</span>
             </div>
             <ol className="approach-list">
               <li>
                 <span className="approach-number">01</span>
                 <div>
-                  <h3>Understand the problem</h3>
-                  <p>Start with the user, constraints, and what success needs to look like.</p>
+                  <h3>Model the interface</h3>
+                  <p>Identify user flows, component boundaries, data, and loading or error states.</p>
                 </div>
                 <span className="approach-mark" aria-hidden="true">
                   ↗
@@ -1042,8 +1042,8 @@ function App() {
               <li>
                 <span className="approach-number">02</span>
                 <div>
-                  <h3>Build the whole system</h3>
-                  <p>Connect accessible interfaces to maintainable application logic and data.</p>
+                  <h3>Connect the stack</h3>
+                  <p>Integrate responsive React views with APIs, persistence, and real-time services.</p>
                 </div>
                 <span className="approach-mark" aria-hidden="true">
                   ↗
@@ -1052,8 +1052,8 @@ function App() {
               <li>
                 <span className="approach-number">03</span>
                 <div>
-                  <h3>Measure, refine, ship</h3>
-                  <p>Test real flows, improve performance, and keep the finish intentional.</p>
+                  <h3>Validate behavior</h3>
+                  <p>Test key interactions, keyboard access, responsive layouts, and performance.</p>
                 </div>
                 <span className="approach-mark" aria-hidden="true">
                   ↗
@@ -1080,15 +1080,15 @@ function App() {
                 <span className="section-index">03</span> EXPERIENCE
               </p>
               <h2 id="experience-title">
-                Built across
+                Engineering
                 <br />
-                <span>teams &amp; products.</span>
+                <span>experience.</span>
               </h2>
             </div>
             <p className="section-aside">
-              Mobile, web, and real-time engineering
+              React Native, Node.js, web interfaces,
               <br />
-              from early-stage teams to client work.
+              backend services, and real-time systems.
             </p>
           </div>
           <div className="experience-list">
@@ -1125,18 +1125,18 @@ function App() {
           <div className="section-heading">
             <div>
               <p className="eyebrow">
-                <span className="section-index">04</span> TOOLKIT
+                <span className="section-index">04</span> TECHNICAL SKILLS
               </p>
               <h2 id="stack-title">
-                The right tool
+                Languages &amp;
                 <br />
-                for the <span>job.</span>
+                <span>technologies.</span>
               </h2>
             </div>
             <p className="section-aside">
-              A flexible stack for interfaces,
+              Frontend, backend, data, and delivery
               <br />
-              services, and product delivery.
+              technologies used across my work.
             </p>
           </div>
           <div className="stack-grid">
@@ -1168,22 +1168,23 @@ function App() {
                 <span className="section-index">05</span> REACT PLAYGROUND
               </p>
               <h2 id="react-lab-title">
-                Frontend you
+                React UI,
                 <br />
-                can <span>feel.</span>
+                in <span>state.</span>
               </h2>
             </div>
             <p className="section-aside">
-              A tiny product UI, wired with real state.
+              A component-driven checklist with
               <br />
-              Try it: toggle, add, or clear a task.
+              state-derived progress. Toggle, add, or clear tasks.
             </p>
           </div>
           <div className="react-lab-layout">
             <div className="react-lab-copy">
               <p>
-                Components are more than pixels. Change the data and the checklist,
-                progress, and status all update together—just like a real app.
+                Task updates are managed with React state. The list, completion
+                count, progress bar, and empty-action states render from the same
+                data.
               </p>
               <div className="react-lab-skills" aria-label="Frontend concepts demonstrated">
                 <span>REUSABLE COMPONENTS</span>
@@ -1210,20 +1211,20 @@ function App() {
             </div>
             <div className="contact-content">
               <div>
-                <p className="eyebrow">HAVE SOMETHING GOOD?</p>
+                <p className="eyebrow">CONTACT &amp; PROFILES</p>
                 <h2 id="contact-title">
-                  Let’s build
+                  Contact
                   <br />
-                  what’s <span>next.</span>
+                  &amp; <span>links.</span>
                 </h2>
               </div>
               <div className="contact-actions">
                 <p>
-                  Have an idea, a product challenge, or a team looking for a
-                  thoughtful full-stack engineer? I’d love to hear about it.
+                  For questions about my work, technical collaboration, or roles,
+                  contact me by email or connect through my profiles.
                 </p>
                 <a className="button button-primary" href="mailto:karangupta916@gmail.com">
-                  Start a conversation <span aria-hidden="true">↗</span>
+                  Email me <span aria-hidden="true">↗</span>
                 </a>
                 <div className="contact-links">
                   <a href="mailto:karangupta916@gmail.com">karangupta916@gmail.com</a>
