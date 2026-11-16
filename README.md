@@ -1,15 +1,29 @@
-# Karan Gupta — Full-Stack Engineer Portfolio
+# Karan Gupta — React / Full-Stack Engineer Portfolio
 
-A standalone, static portfolio focused on React, React Native, and full-stack product work. Its showcase images are included in this folder; the originals are from `game-dev-portfolio/assets/`. It has no build step or npm dependencies.
+A React single-page portfolio built with Vite. Project imagery is bundled locally; the site includes responsive navigation, project filters, an interactive OneRoot case study, a stateful React playground, scroll-aware section status, and reduced-motion support.
+
+## Requirements
+
+- Node.js 22.12 or newer
 
 ## Run locally
 
-From this directory, start a local web server:
-
 ```bash
-python3 -m http.server 8001
+npm install
+npm run dev
 ```
 
-Then open [http://localhost:8001/](http://localhost:8001/) in a browser. Stop the server with `Ctrl+C`.
+Open the local URL printed by Vite.
 
-The site includes a short asset-aware intro sequence, responsive navigation, project filters, an interactive OneRoot case study with keyboard-accessible Product, System, and Decisions tabs, a subtle project-to-process scroll transition, scroll-aware section status, and reduced-motion support. Scroll effects are limited to lightweight transform animations; if JavaScript is unavailable, the case-study content remains readable and the intro stays hidden.
+## Production build
+
+```bash
+npm run build
+npm run preview
+```
+
+Vite writes the deployable static site to `dist/`.
+
+## Deploy to Vercel
+
+Import `kdenzz/react-fullstack-portfolio` from GitHub. Keep the repository root as the project root; Vercel should detect Vite automatically. The build command is `npm run build`, and the output directory is `dist`. Deployments from `main` are production; other branches and pull requests can be previewed.

@@ -1361,6 +1361,261 @@ a:focus-visible {
   pointer-events: none;
 }
 
+.react-lab-section {
+  padding-top: clamp(5rem, 9vw, 8rem);
+  padding-bottom: clamp(5.5rem, 10vw, 9rem);
+}
+
+.react-lab-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.75fr) minmax(0, 1.25fr);
+  align-items: center;
+  gap: clamp(2rem, 6vw, 6rem);
+}
+
+.react-lab-copy {
+  max-width: 29rem;
+}
+
+.react-lab-copy > p {
+  margin: 0;
+  color: #b6b8af;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.react-lab-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 1.8rem;
+}
+
+.react-lab-skills span,
+.react-playground-label,
+.react-playground-count,
+.react-task-type,
+.react-playground-foot {
+  font-family: var(--mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.08em;
+}
+
+.react-lab-skills span {
+  padding: 0.55rem 0.65rem;
+  border: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.react-playground {
+  min-width: 0;
+  border: 1px solid rgba(203, 255, 77, 0.3);
+  background:
+    radial-gradient(ellipse at 100% 0, rgba(203, 255, 77, 0.075), transparent 45%),
+    var(--ink-raised);
+  box-shadow: 0 1.5rem 5rem rgba(0, 0, 0, 0.2);
+}
+
+.react-playground-bar {
+  display: grid;
+  min-height: 3.25rem;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0 1.1rem;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.5rem;
+  letter-spacing: 0.08em;
+}
+
+.react-playground-dots {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.react-playground-dots span {
+  width: 0.4rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #45483f;
+}
+
+.react-playground-dots span:first-child {
+  background: var(--acid);
+}
+
+.react-live {
+  display: inline-flex;
+  align-items: center;
+  justify-self: end;
+  gap: 0.4rem;
+  color: var(--acid);
+}
+
+.react-live .live-dot {
+  width: 0.35rem;
+  height: 0.35rem;
+}
+
+.react-playground-body {
+  padding: clamp(1.1rem, 3vw, 2rem);
+}
+
+.react-playground-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.react-playground-label {
+  margin: 0 0 0.55rem;
+  color: var(--muted);
+}
+
+.react-playground-heading h3 {
+  margin: 0;
+  font-size: clamp(1.5rem, 3vw, 2.1rem);
+  font-weight: 500;
+  letter-spacing: -0.06em;
+}
+
+.react-playground-count {
+  flex: 0 0 auto;
+  padding-bottom: 0.25rem;
+  color: var(--acid);
+}
+
+.react-playground-progress {
+  height: 0.3rem;
+  margin: 1.4rem 0 0.9rem;
+  overflow: hidden;
+  background: var(--ink-soft);
+}
+
+.react-playground-progress span {
+  display: block;
+  height: 100%;
+  background: var(--acid);
+  transition: width 220ms ease;
+}
+
+.react-task-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.react-task {
+  border-bottom: 1px solid var(--line);
+}
+
+.react-task-button {
+  display: grid;
+  width: 100%;
+  min-height: 3.7rem;
+  grid-template-columns: 1.15rem minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.65rem 0;
+  border: 0;
+  background: transparent;
+  color: var(--paper);
+  text-align: left;
+  cursor: pointer;
+}
+
+.react-task-check {
+  display: grid;
+  width: 1.1rem;
+  aspect-ratio: 1;
+  place-items: center;
+  border: 1px solid #676b5e;
+  color: var(--ink);
+  font-size: 0.75rem;
+  transition: background 160ms ease, border-color 160ms ease;
+}
+
+.react-task-button:hover .react-task-check,
+.react-task.is-complete .react-task-check {
+  border-color: var(--acid);
+  background: var(--acid);
+}
+
+.react-task-title {
+  min-width: 0;
+  font-size: 0.85rem;
+  transition: color 160ms ease;
+}
+
+.react-task.is-complete .react-task-title {
+  color: var(--muted);
+  text-decoration: line-through;
+  text-decoration-color: rgba(203, 255, 77, 0.6);
+}
+
+.react-task-type {
+  color: var(--muted);
+  text-align: right;
+}
+
+.react-playground-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.7rem;
+  padding-top: 1.25rem;
+}
+
+.react-playground-add,
+.react-playground-clear {
+  min-height: 2.7rem;
+  padding: 0.65rem 0.8rem;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--paper);
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: border-color 160ms ease, color 160ms ease, background 160ms ease;
+}
+
+.react-playground-add:hover {
+  border-color: var(--acid);
+  color: var(--acid);
+}
+
+.react-playground-add span {
+  margin-right: 0.35rem;
+  color: var(--acid);
+}
+
+.react-playground-clear {
+  border-color: transparent;
+  color: var(--muted);
+}
+
+.react-playground-clear:hover:not(:disabled) {
+  color: var(--paper);
+}
+
+.react-playground-clear:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+.react-playground-foot {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1.2rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+}
+
 .contact-section {
   padding-bottom: clamp(5.5rem, 9vw, 8rem);
 }
@@ -1668,6 +1923,10 @@ html.has-motion .reveal-ready {
   .stack-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .react-lab-layout {
+    gap: 2rem;
+  }
 }
 
 @media (max-width: 760px) {
@@ -1797,6 +2056,15 @@ html.has-motion .reveal-ready {
   .section-heading h2,
   .about-copy h2 {
     font-size: clamp(3.6rem, 13vw, 5.8rem);
+  }
+
+  .react-lab-layout {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .react-lab-copy {
+    max-width: 39rem;
   }
 
   .project-grid {
@@ -1993,6 +2261,29 @@ html.has-motion .reveal-ready {
 
   .stack-card h3 {
     margin-top: 1.8rem;
+  }
+
+  .react-playground-bar {
+    padding-right: 0.7rem;
+    padding-left: 0.7rem;
+    font-size: 0.44rem;
+  }
+
+  .react-playground-body {
+    padding: 1rem;
+  }
+
+  .react-task-button {
+    grid-template-columns: 1.1rem minmax(0, 1fr) auto;
+    gap: 0.6rem;
+  }
+
+  .react-task-title {
+    font-size: 0.78rem;
+  }
+
+  .react-task-type {
+    font-size: 0.44rem;
   }
 
   .contact-topline {
