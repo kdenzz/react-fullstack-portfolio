@@ -873,7 +873,7 @@ function App() {
             <span className="visual-stamp" aria-hidden="true">
               <span>BUILT WITH</span>
               <strong>
-                INTENT<span>✳</span>
+                INTENT<span>◆</span>
               </strong>
             </span>
             <span className="visual-side-note" aria-hidden="true">
@@ -911,7 +911,7 @@ function App() {
           <p>
             IDEA IN
             <br />
-            PRODUCTION<span aria-hidden="true">✳</span>
+            PRODUCTION<span aria-hidden="true">◆</span>
           </p>
         </section>
 
@@ -1243,7 +1243,7 @@ function App() {
               </div>
             </div>
             <div className="contact-decoration" aria-hidden="true">
-              KG<span>✳</span>
+              KG<span>◆</span>
             </div>
           </div>
         </section>
